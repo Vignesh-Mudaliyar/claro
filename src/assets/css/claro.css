@@ -1,0 +1,111 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block; margin: 0; padding: 0;}
+* {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+html {font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, form {margin: 0; padding: 0; list-style: none; font-weight: normal;}
+button, input, select, textarea {margin: 0; padding: 0; border: none; font-family: 'GraphikRegular';}
+.csfield:focus {outline: none; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+body {font-family: 'GraphikRegular'; font-size: 14px; color: #000000;}
+a {text-decoration: none;}
+a:hover, a:focus {text-decoration: none; outline: none;}
+img {border: none; vertical-align: middle;}
+
+/****************
+ * Common Css
+ ****************/
+.csfield {border: none; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+a, a:hover, button {transition:all 0.3s ease 0s; -moz-transition:all 0.3s ease 0s; -webkit-transition:all 0.3s ease 0s;}
+
+::-webkit-input-placeholder {color:#0B0808 !important; font-size: 14px !important;}
+::-moz-placeholder {color:#0B0808 !important; font-size: 14px !important;}
+:-ms-input-placeholder {color:#0B0808 !important; font-size: 14px !important;}
+:-moz-placeholder {color:#0B0808 !important; font-size: 14px !important;}
+
+@font-face {
+    font-family: 'GraphikRegular';
+    src: url('../fonts/GraphikRegular.eot');
+    src: url('../fonts/GraphikRegular.eot') format('embedded-opentype'),
+         url('../fonts/GraphikRegular.woff2') format('woff2'),
+         url('../fonts/GraphikRegular.woff') format('woff'),
+         url('../fonts/GraphikRegular.ttf') format('truetype'),
+         url('../fonts/GraphikRegular.svg#GraphikRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GraphikMedium';
+    src: url('../fonts/GraphikMedium.eot');
+    src: url('../fonts/GraphikMedium.eot') format('embedded-opentype'),
+         url('../fonts/GraphikMedium.woff2') format('woff2'),
+         url('../fonts/GraphikMedium.woff') format('woff'),
+         url('../fonts/GraphikMedium.ttf') format('truetype'),
+         url('../fonts/GraphikMedium.svg#GraphikMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GraphikSemibold';
+    src: url('../fonts/GraphikSemibold.eot');
+    src: url('../fonts/GraphikSemibold.eot') format('embedded-opentype'),
+         url('../fonts/GraphikSemibold.woff2') format('woff2'),
+         url('../fonts/GraphikSemibold.woff') format('woff'),
+         url('../fonts/GraphikSemibold.ttf') format('truetype'),
+         url('../fonts/GraphikSemibold.svg#GraphikSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.clarosteps .container {max-width: 375px;}
+.welcomestep .logo {margin-top: 103px; margin-bottom: 50px;}
+.welcomestep .inftext h4 {font-family: 'GraphikMedium'; font-size: 30px; color: #333333;}
+.welcomestep .inftext .ssubtext {font-size: 18px; color: #707070; line-height: 21px; margin-top: 5px;}
+.welcomestep .registep .csfielddcol {margin: 18px 0px 29px;}
+
+.registep {padding: 0px;}
+.registep .innerformm {background-color:#F5F5F5;}
+.registep .innerformm .header {padding:10px 15px; background-color: #ffffff;position: relative;}
+.registep .innerformm .header .logo img {height: 30px;}
+.registep .inftext {padding:15px 18px; text-align: left; width: 100%; display: inline-block;}
+
+.registrationform h4 {font-size: 24px; margin-bottom: 5px; color: #333333; font-family: 'GraphikMedium';}
+/* .registrationform .registep .innerformm {height: 100vh;} */
+/*.registep .ssubtext {font-size: 18px; color: #222121;}*/
+.registep form {padding: 0px 18px 30px;}
+.registep form .inftext {padding: 0px;}
+.registep .csfielddcol {display: block; width: 100%; margin: 20px 0px;}
+.registep .csfielddcol label {display: block; text-align: left; font-size:16px; color: #000000; padding: 0px; margin: 0px; font-family: 'GraphikMedium';}
+.registep .csfielddcol small {font-size: 14px; color: #707070; font-style: italic; display: block; margin-bottom: 5px;}
+.registep .csfielddcol .csfield {height: 38px; padding: 6px 11px; color: #0B0808; background-color: #ffffff; border: 1px solid #0097A94D; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.registep .csfielddcol select.csfield{background-image: url(../images/drop-arrow.svg); background-repeat: no-repeat; padding: 0px 10px; background-position: calc(100% - 15px) 50%; background-position: -moz-calc(100% - 15px) 50%; background-position: -webkit-calc(100% - 15px) 50%; font-size: 14px; color: #0B0808; line-height: 37px; appearance:none; -moz-appearance:none; -webkit-appearance:none;}
+.registep .csfielddcol .radiobtns {display: none;}
+.registep .csfielddcol .radiorow {position: relative; margin-top: 14px; margin-right: 30px;}
+.registep .csfielddcol .radiobtns + label {position: relative; cursor: pointer; padding-left: 31px; width: auto; font-size:17px; color: #000000; line-height: 22px; font-family: 'GraphikRegular';}
+.registep .csfielddcol .radiobtns + label:before {content: ''; display: inline-block; width:22px; height:22px; background: url(../images/radioicon.png) no-repeat 50% 50%; position: absolute; left: 0; top: 43%; transform: translateY(-50%); -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%);}
+.registep .csfielddcol .radiobtns:checked + label:before {background: url(../images/radioicon-a.png) no-repeat 50% 50%;}
+.registrationform .registep .csfielddcol .radiobtns + label {font-size: 15px;}
+.registrationform .registep .csfielddcol.radiopts {margin-top: 10px;}
+.registep .inftext p {font-size: 14px; color: #000000; line-height: 20px;}
+.registep .inftext p a{color: #000000; text-decoration: none;}
+.registep .inftext p a:hover {text-decoration: underline;}
+.registep .notemsg {margin-bottom: 0px !important;}
+.registep .notemsg p {font-size: 13px;}
+
+.registep .snbtn {display: inline-block; margin-top: 15px;text-decoration: none; width: 130px; height:40px; line-height: 40px; font-size: 16px; color: #ffffff; background-color: #0097A9; text-align: center; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;}
+.registep .snbtn:hover {background-color: #000000;}
+
+.registrationform .inftext2 p {margin-bottom: 15px;}
+.registrationform .inftext2 p span {font-family: 'GraphikMedium'; color: #FF0000;}
+
+
+.registrationform .inftext .cicon {margin-top: 35px; margin-bottom: 18px;}
+.registrationform .inftext2 h4 {margin-bottom: 15px;}
+.registrationform .inftext2 .gcolor {color: #1CC810;}
+.registrationform .inftext2 .rcolor {color: #FF0030;}
+.registrationform .inftext2 p {margin-bottom: 10px;}
+.registrationform .inftext2 p span {font-family: 'GraphikMedium'; color: #FF0000;}
+
+input[type="date"]::-webkit-calendar-picker-indicator{background-image: url(../images/date-icon.svg); background-repeat: no-repeat; }
+
+.backarrow {background: url(../images/back-arrow.png) no-repeat 0 0; width: 9px; height: 17px; cursor: pointer; position: absolute; top: 50%; transform: translateY(-50%); -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%);}
